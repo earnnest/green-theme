@@ -36,9 +36,11 @@
   <div class="inner_wrap">
     <div id="header" class="flex_100">
       <div class="flex_66">
-        <h1><a href="<?php echo home_url(); ?>/">
+        <div class="blog_name">
+		<h1><a href="<?php echo home_url(); ?>/">
           <?php bloginfo('name'); ?>
           </a></h1>
+		</div>
       </div>
       
       <div class="clear"></div>
