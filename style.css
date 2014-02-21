@@ -1,13 +1,7 @@
 /*   
-Theme Name: Simon WP Framework
-Theme URI: http://simonwebdesign.com/simon-wp-framework/
-Description: A blank framework licensed under the <a href="http://www.opensource.org/licenses/gpl-license.php">GPL</a>. It's a blank theme that provides the most flexibility for creating child themes from Simon WP Framework. Theme comes with custom icons. This Framework is widget ready in the sidebar and in the footer.
-Author: SWD
-Author URI: http://simonwebdesign.com
-License: GNU General Public License v2.0
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Version: 2.1.9
-Tags: light, white, black, gray, two-columns, right-sidebar, fixed-width, custom-background, post-formats
+Theme Name: Department Procedure Theme
+Description: This is just for practice
+Version: 1.0
 */
 
 /* Contents
@@ -190,9 +184,11 @@ width:207px;
 		padding: 0px;
 		width: 100%;
 		height:37px;
+		
 }
 #navigation a {
-		color: #fff;
+		color: #000;
+		
 }
 #navigation li li a {
 		color: #434343;
@@ -202,10 +198,12 @@ width:207px;
 		list-style: none;
 		margin: 0px 0px 0px 0px;
 		padding-left: 0;
+		
 }
 #navigation li {
 		float: left;
 		position: relative;
+		
 }
 #navigation a {
 		font-weight: bolder;
@@ -213,6 +211,7 @@ width:207px;
 		line-height: 3.333em;
 		padding: 0 1.2125em;
 		text-decoration: none;
+		
 }
 #navigation ul ul {
 		-moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -248,12 +247,9 @@ width:207px;
 }
 #navigation li:hover > a,
 #navigation a:focus {
-		background: #f9f9f9; /* Show a solid color for older browsers */
-		background: -moz-linear-gradient(#f9f9f9, #e5e5e5);
-		background: -o-linear-gradient(#f9f9f9, #e5e5e5);
-		background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9f9f9), to(#e5e5e5)); /* Older webkit syntax */
-		background: -webkit-linear-gradient(#f9f9f9, #e5e5e5);
-		color: #373737;
+		margin-top:1px;
+		background: #0bbe02; /* Show a solid color for older browsers */
+		color: #000000;
 }
 #navigation ul li:hover > ul {
 		display: block;
@@ -261,6 +257,7 @@ width:207px;
 #navigation .current_page_item > a,
 #navigation .current_page_ancestor > a {
 		font-weight: bold;
+
 }
 /* Sidebar */
 /* ---------------------------------------------------------- */
@@ -632,6 +629,12 @@ h3#reply-title {
 
 body {
 		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		background: url("images/carbon.png") repeat scroll 0 0 #ffffff;
+		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset, 0 -1px 2px rgba(0, 0, 0, 0.2) inset;
+		width: 100%;
+		height:265px;
+		float:left;
+		clear:both;
 }
 #header h1 {
 		font-weight: 600;

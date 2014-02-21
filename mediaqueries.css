@@ -53,10 +53,12 @@ body {
 }
 nav {
 	border-bottom: 0;
+	
 }
 nav ul {
 	display: none;
 	height: auto;
+
 }
 #navigation li li {
 	display: none;
@@ -77,6 +79,7 @@ nav li {
 }
 nav li a {
 	border-bottom: 1px solid #576979;
+	
 }
 .content .post .flex_90,
 .content .flex_66 {

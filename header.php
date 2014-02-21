@@ -32,6 +32,7 @@
 <script src="<?php bloginfo('template_url'); ?>/to-top-jquery/to-top-jquery.js"></script>
 </head>
 <body <?php body_class(); ?>>
+
 <div class="outer_wrap">
   <div class="inner_wrap">
     <div id="header" class="flex_100">
@@ -60,5 +61,6 @@
 		<div class="shadow_nav"></div>
     </nav>
     <div class="clear"></div>
+
   </div>
 </div>

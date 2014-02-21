@@ -14,6 +14,7 @@ get_header(); ?>
 		
 	</div>
 </div>
+
   <div class="inner_wrap">
     <div class="content">
       <div class="alpha flex_66">
